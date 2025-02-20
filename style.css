@@ -1,17 +1,35 @@
 body{
     padding: 0;
     margin: 0 ;
-    background-color: aquamarine;
+    background-color: burlywood;
 }
+.galeria{
+    max-width: 50%;
+    margin: 0 auto auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 100px;
+    justify-content: space-around;
+  }
 
-#galeria{
-    padding-top: 16px;
-    display: columns;
-    columns: 5;
+img{
+    margin-top: 20px;
+    width: 350px;
+    height:350px;
+    padding: 10px;
 
+
+ }
+#pesquisar{
+    padding: 8px;
+    font-size: 16px;
+    outline: none;
+    background-color:peachpuff ;
 }
-
-#galeria img{
-    width: 300px;
-
+#raca{
+    padding: 12px 24px;
+    font-size: 14px;
+    cursor: pointer;
+    background-color: beige;
 }
